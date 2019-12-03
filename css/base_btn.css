@@ -1,0 +1,20 @@
+/**btn**/
+
+
+.button {
+	background-color:#0CC; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	border-radius: 6px;
+
+}
+
+.button:hover {
+	background-color:#CCC;
+}

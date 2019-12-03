@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+ 
+/* 标题 */
+.header {
+	width: 100%;
+    padding: 20px auto;
+    text-align: center;
+}
+ 
+.admindate {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 8px;
+	background-color:#399;
+}
+ 
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+ 
+/*左侧栏*/
+.left {
+	width: 20%;
+	height: 400px;
+	padding-top: 20px;
+	margin-left: 5.5%;
+	text-align: center;
+	background:#333;
+}
+ 
+/* 主要的内容区域 */
+.main {   
+    width: 74.5%;
+	height: 400px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+ 
+/* 底部 */
+.footer {
+	width: 100%;
+	margin-top: 10px;
+    text-align: center;
+	background:#000;
+}

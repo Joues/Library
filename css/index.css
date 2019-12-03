@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+	width:100%;
+	height:auto;
+	margin:auto;
+	padding:0;
+}
+#header{
+	height:80px;
+	width:100%px;
+	margin:0;
+	padding:0;
+	color:#red;
+	text-align:center;
+}
+#top{
+	height:100px;
+	width:100%px;
+	margin:0;
+	padding:0;
+	background-color:#green;
+}
+#search {
+	height:140px;
+	width:100%px;
+	margin:0;
+	padding:0;
+	background-color:#blue;
+}
+
+#left{
+	height:450px;
+	width:50%;
+	float:left;
+	margin:0;
+	padding:20px;	
+	background-color:#red;
+}
+#right{
+	height: 450px;
+	width: 50%px;
+	float: left;
+	padding:20px;
+	background-color: #white;
+	color: #000;
+}
+#footer{
+	height:140px;
+	width:100%px;
+	padding-top:30px;
+	float:left;
+	clear:both;
+	text-align:center;
+	color:#black;
+}
+	
+.myDiv {
+            width:1200px;
+            height: 300px;
+            margin: 0;
+            -webkit-animation-name: 'loop';
+            -webkit-animation-duration: 10s;
+            -webkit-animation-iteration-count: infinite;
+        }
+        @-webkit-keyframes "loop"{
+            0% { background: url("images/6.jpg") no-repeat;}
+            25% { background: url("images/7.jpg") no-repeat;}
+            50% { background: url("images/8.jpg") no-repeat;}
+            75% { background: url("images/9.jpg") no-repeat;}
+            100% {background:  url("images/10.jpg") no-repeat;}
+        }
